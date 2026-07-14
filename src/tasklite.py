@@ -48,7 +48,7 @@ def list_tasks():
 
 
 def mark_done(index):
-    # TODO(documentation): this function has no docstring yet.
+    """print all tasks which are marked done """
     tasks = load_tasks()
     try:
         tasks[index]["done"] = True
